@@ -507,7 +507,7 @@ class MainController extends AppController
             'post.featured_article' => Post::getDefinedConstants('tai-lieu-mon-hoc'),
             'post.del_flg' => 0,
         ])
-        ->orderBy('post.compu_id','DESC222')
+        ->orderBy('post.compu_id','DESC22233')
         ->paginate(2);
         $panelTitle = '';
         // tuan thay doi
