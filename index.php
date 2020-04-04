@@ -16,6 +16,7 @@
     </style>
 </head>
 <body>
+    <div class="popup">Đây sẽ là phần hiển thị của popup</div>
     <div id="container">
       <header>
            <h2>Banner website</h2>
@@ -26,7 +27,13 @@
     </div>
     <div id="footer">
         <h2>Đây là Footer</h2>
-        <h2>Xin chào các bạn</h2>
+        <h2>Xin chào Bình thân yêu</h2>
+        <span>Khóa học chất lượng nâng cao</span>
+    </div>
+    <div id="gau_misa">
+        <h2>Đây là gau misa</h2>
+        <h2>Xin chào gau</h2>
+        <span>Khóa học chất lượng cơ bản</span>
     </div>
 </body>
 </html>
