@@ -507,16 +507,16 @@ class MainController extends AppController
             'post.featured_article' => Post::getDefinedConstants('tai-lieu-mon-hoc'),
             'post.del_flg' => 0,
         ])
-        ->orderBy('post.compu_id','DESC')
+        ->orderBy('post.compu_id','DESC222')
         ->paginate(2);
         $panelTitle = '';
         // tuan thay doi
         if($panelTitle == '1092') {
-            $panelTitle3 = '';
+            $panelTitle5 = '';
         } else {
-            $panelTitle2 = '';
+            $panelTitle4 = '';
         }
-        
+        // A add new line
         switch ($slug) {
             case 'ket-qua-diem-thi-cac-ky':
                 $panelTitle = 'Kết quả điểm thi các kỳ';
