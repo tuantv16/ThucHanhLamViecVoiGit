@@ -34,6 +34,7 @@
         <h2>Đây là gau misa</h2>
         <h2>Xin chào gau</h2>
         <span>Khóa học chất lượng cơ bản</span>
+        <p>Thêm một dòng text</p>
     </div>
 </body>
 </html>
