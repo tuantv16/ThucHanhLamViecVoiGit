@@ -511,8 +511,12 @@ class MainController extends AppController
         ->paginate(2);
         $panelTitle = '';
         // tuan thay doi
-        $panelTitle2 = '';
-        $panelTitle3 = '';
+        if($panelTitle == '1092') {
+            $panelTitle3 = '';
+        } else {
+            $panelTitle2 = '';
+        }
+        
         switch ($slug) {
             case 'ket-qua-diem-thi-cac-ky':
                 $panelTitle = 'Kết quả điểm thi các kỳ';
