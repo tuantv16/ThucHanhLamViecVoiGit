@@ -233,16 +233,17 @@ class MainController extends AppController
 
     //video
     function getVideo() {
-         $video = DB::table('video')
+         $video = DB::table('video_audioxx')
         ->where([
-            'video.del_flg' => 0,
+            'video.del_flg2' => 0,
         ])
         ->take(1)
         ->first();
         //var_dump($featuredArticle);die;
         return $video;
     }
-
+    // thêm 1 dòng mới
+    echo 'xin chao';
     //liên kết
     function getLink() {
          $link = DB::table('link')
